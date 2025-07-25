@@ -1,0 +1,25 @@
+public enum Option
+{
+	Vertical = 0,
+	Horizontal = 1,
+	CameraVertical = 3,
+	CameraHorizontal = 2,
+	Jump = 4,
+	Fire = 5,
+	Emote = 6,
+	ReleaseMouse = 7,
+	Melee = 8,
+	SwitchWeapon = 9,
+	Reload = 10,
+	Settings = 11,
+	Zoom = 12,
+	UseSpecial = 13,
+	Clear = 14,
+	Scoreboard = 15,
+	WeaponSlot1 = 16,
+	WeaponSlot2 = 17,
+	WeaponSlot3 = 18,
+	WeaponSlot4 = 19,
+	WeaponSlot5 = 20,
+	OpenEmoticons = 24
+}
