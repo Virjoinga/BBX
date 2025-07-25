@@ -80,8 +80,8 @@ namespace PlayFab
 				foreach (EventContents @event in request.Events)
 				{
 					CsEvent csEvent = new CsEvent();
-					csEvent.data = new List<Data>();
-					if (@event.Payload is Data item)
+					csEvent.data = new List<Microsoft.Applications.Events.DataModels.Data>();
+					if (@event.Payload is Microsoft.Applications.Events.DataModels.Data item)
 					{
 						csEvent.data.Add(item);
 					}

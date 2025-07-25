@@ -2,12 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!43 &4300000
 Mesh:
-  serializedVersion: 10
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Soldier_Soaker1:Soldier_Soaker_02
+  m_Name: Soldier_Soaker1_Soldier_Soaker_02
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -17,7 +17,7 @@ Mesh:
     firstVertex: 0
     vertexCount: 81
     localAABB:
-      m_Center: {x: -1.3411045E-07, y: 0.31486762, z: 0.62115425}
+      m_Center: {x: -0.00000013411045, y: 0.31486762, z: 0.62115425}
       m_Extent: {x: 0.083086446, y: 0.08308649, z: 0.2300505}
   m_Shapes:
     vertices: []
@@ -41,7 +41,7 @@ Mesh:
     e31: 0
     e32: 0
     e33: 1
-  - e00: 6.123234E-17
+  - e00: 6.123234e-17
     e01: -0
     e02: -1
     e03: 0.7128471
@@ -51,8 +51,8 @@ Mesh:
     e13: -0.1308837
     e20: 1
     e21: 0
-    e22: 6.123234E-17
-    e23: 1.4901161E-08
+    e22: 6.123234e-17
+    e23: 0.000000014901161
     e30: 0
     e31: 0
     e32: 0
@@ -73,7 +73,7 @@ Mesh:
     e31: 0
     e32: 0
     e33: 1
-  - e00: 6.123234E-17
+  - e00: 6.123234e-17
     e01: -0
     e02: -1
     e03: 0.39092043
@@ -83,8 +83,8 @@ Mesh:
     e13: -0.3167529
     e20: 1
     e21: 0
-    e22: 6.123234E-17
-    e23: -8.940697E-08
+    e22: 6.123234e-17
+    e23: -0.00000008940697
     e30: 0
     e31: 0
     e32: 0
@@ -121,7 +121,7 @@ Mesh:
     e31: 0
     e32: 0
     e33: 1
-  - e00: 7.2736614E-16
+  - e00: 7.2736614e-16
     e01: 0
     e02: 1
     e03: -0.26630384
@@ -131,13 +131,13 @@ Mesh:
     e13: -0.31675303
     e20: -1
     e21: 0
-    e22: 7.2736614E-16
+    e22: 7.2736614e-16
     e23: 0.000117212534
     e30: 0
     e31: 0
     e32: 0
     e33: 1
-  - e00: 7.2736614E-16
+  - e00: 7.2736614e-16
     e01: 0
     e02: 1
     e03: -0.22582519
@@ -147,13 +147,13 @@ Mesh:
     e13: -0.31675303
     e20: -1
     e21: 0
-    e22: 7.2736614E-16
-    e23: 8.940697E-08
+    e22: 7.2736614e-16
+    e23: 0.00000008940697
     e30: 0
     e31: 0
     e32: 0
     e33: 1
-  m_BoneNameHashes: 3a68cc000313b9e9(9be78f8)f0c8138-e9eb5d255c97a3a(d03b29f41b65a78
+  m_BoneNameHashes: 3a68cc000313b9e989be78f89f0c8138de9eb5d255c97a3a8d03b29f41b65a78
   m_RootBoneNameHash: 981125461
   m_BonesAABB:
   - m_Min: {x: Infinity, y: Infinity, z: Infinity}
@@ -173,11 +173,11 @@ Mesh:
   - m_Min: {x: Infinity, y: Infinity, z: Infinity}
     m_Max: {x: -Infinity, y: -Infinity, z: -Infinity}
   m_VariableBoneCountWeights:
-    m_Data:
+    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 0
-  m_KeepVertices: 0
-  m_KeepIndices: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
   m_IndexFormat: 0
   m_IndexBuffer: 000001000200000003000100040003000000030005000100040006000300060004000700030008000500060008000300080009000500060007000a000a0007000b0006000c0008000c0006000a0008000d0009000c000d0008000d000e0009000a000b000f000f000b0010000c000a00110011000a000f000c0012000d0012000c0011000d0013000e00120013000d00130014000e0011000f00150015000f001000120011001600160011001500120017001300170012001600130018001400170018001300180019001400160015001a001a0015001000170016001b001b0016001a0017001c0018001c0017001b0018001d0019001c001d0018001d001e0019001f001a0010001b001a001f001c001b00200020001b001f0021001f00100020001f00210022002100100023002100220023002000210024001c0020001c0024001d002400200023001d0025001e00240025001d00250026001e00270024002300240027002500250028002600270028002500280029002600270023002a002a0023002b0027002c0028002c0027002a0028002d0029002c002d0028002d002e0029002a002b002f002f002b0030002c002a00310031002a002f002c0032002d0032002c0031002d0033002e00320033002d00330034002e0031002f00350035002f00300032003100360036003100350032003700330037003200360033003800340037003800330038003900340038003a0039003b003a00380037003b0038003b003c003a00360035003d003d0035003000370036003e003b0037003e003e0036003d003c003b003f003b003e003f003c003f0040003e003d00410041003d0030003f003e00410040003f0042003f0041004200420041003000400042004300430042003000440045004600470044004600460045004800490047004600460048004a004b004900460046004a004c004d004b00460046004c004e004f004d00460046004e0050004f0046005000
   m_VertexData:
@@ -247,63 +247,63 @@ Mesh:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UV:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Normals:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Tangents:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Weights:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_NormalSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_TangentSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_FloatColors:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_BoneIndices:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Triangles:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: -1.3411045E-07, y: 0.31486762, z: 0.62115425}
+    m_Center: {x: -0.00000013411045, y: 0.31486762, z: 0.62115425}
     m_Extent: {x: 0.083086446, y: 0.08308649, z: 0.2300505}
   m_MeshUsageFlags: 1
-  m_BakedConvexCollisionMesh:
-  m_BakedTriangleCollisionMesh:
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 11.81119
   m_MeshMetrics[1]: 1
   m_MeshOptimizationFlags: -1
   m_StreamData:
     offset: 0
     size: 0
-    path:
+    path: 

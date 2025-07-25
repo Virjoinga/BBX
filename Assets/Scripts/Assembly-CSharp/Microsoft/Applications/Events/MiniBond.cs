@@ -977,7 +977,7 @@ namespace Microsoft.Applications.Events
 			writer.WriteStructEnd(isBase);
 		}
 
-		public static void Serialize(CompactBinaryProtocolWriter writer, Data value, bool isBase)
+		public static void Serialize(CompactBinaryProtocolWriter writer, Microsoft.Applications.Events.DataModels.Data value, bool isBase)
 		{
 			if (value.properties != null && value.properties.Count != 0)
 			{
@@ -1269,7 +1269,7 @@ namespace Microsoft.Applications.Events
 			{
 				writer.WriteFieldBegin(11, 41);
 				writer.WriteContainerBegin((ushort)value.ext.Count, 10);
-				foreach (Data item12 in value.ext)
+				foreach (Microsoft.Applications.Events.DataModels.Data item12 in value.ext)
 				{
 					Serialize(writer, item12, isBase: false);
 				}
@@ -1310,7 +1310,7 @@ namespace Microsoft.Applications.Events
 			{
 				writer.WriteFieldBegin(11, 61);
 				writer.WriteContainerBegin((ushort)value.baseData.Count, 10);
-				foreach (Data baseDatum in value.baseData)
+				foreach (Microsoft.Applications.Events.DataModels.Data baseDatum in value.baseData)
 				{
 					Serialize(writer, baseDatum, isBase: false);
 				}
@@ -1325,7 +1325,7 @@ namespace Microsoft.Applications.Events
 			{
 				writer.WriteFieldBegin(11, 70);
 				writer.WriteContainerBegin((ushort)value.data.Count, 10);
-				foreach (Data datum in value.data)
+				foreach (Microsoft.Applications.Events.DataModels.Data datum in value.data)
 				{
 					Serialize(writer, datum, isBase: false);
 				}

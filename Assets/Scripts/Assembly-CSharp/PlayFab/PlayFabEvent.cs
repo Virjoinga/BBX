@@ -29,7 +29,7 @@ namespace PlayFab
 			EventContents = new EventContents
 			{
 				EventNamespace = "com.playfab.events.default",
-				Payload = new Data()
+				Payload = new Microsoft.Applications.Events.DataModels.Data()
 			};
 		}
 
@@ -40,7 +40,7 @@ namespace PlayFab
 				type = ValueKind.ValueString,
 				stringValue = value
 			};
-			((Data)EventContents.Payload).properties[name] = value2;
+			((Microsoft.Applications.Events.DataModels.Data)EventContents.Payload).properties[name] = value2;
 		}
 
 		public void SetProperty(string name, bool value)
@@ -50,7 +50,7 @@ namespace PlayFab
 				type = ValueKind.ValueBool,
 				longValue = (value ? 1 : 0)
 			};
-			((Data)EventContents.Payload).properties[name] = value2;
+			((Microsoft.Applications.Events.DataModels.Data)EventContents.Payload).properties[name] = value2;
 		}
 
 		public void SetProperty(string name, DateTime value)
@@ -60,7 +60,7 @@ namespace PlayFab
 				type = ValueKind.ValueDateTime,
 				longValue = value.ToUniversalTime().Ticks
 			};
-			((Data)EventContents.Payload).properties[name] = value2;
+			((Microsoft.Applications.Events.DataModels.Data)EventContents.Payload).properties[name] = value2;
 		}
 
 		public void SetProperty(string name, long value)
@@ -70,7 +70,7 @@ namespace PlayFab
 				type = ValueKind.ValueInt64,
 				longValue = value
 			};
-			((Data)EventContents.Payload).properties[name] = value2;
+			((Microsoft.Applications.Events.DataModels.Data)EventContents.Payload).properties[name] = value2;
 		}
 
 		public void SetProperty(string name, double value)
@@ -80,7 +80,7 @@ namespace PlayFab
 				type = ValueKind.ValueDouble,
 				doubleValue = value
 			};
-			((Data)EventContents.Payload).properties[name] = value2;
+			((Microsoft.Applications.Events.DataModels.Data)EventContents.Payload).properties[name] = value2;
 		}
 
 		public void SetProperty(string name, Guid value)
@@ -93,7 +93,7 @@ namespace PlayFab
 					new List<byte>(value.ToByteArray())
 				}
 			};
-			((Data)EventContents.Payload).properties[name] = value2;
+			((Microsoft.Applications.Events.DataModels.Data)EventContents.Payload).properties[name] = value2;
 		}
 	}
 }

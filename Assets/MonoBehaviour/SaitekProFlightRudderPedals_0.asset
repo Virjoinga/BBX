@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 323110133, guid: da77c7bbf69f66ab2145560542327715, type: 3}
-  m_Name: SaitekProFlightRudderPedals
-  m_EditorClassIdentifier:
+  m_Name: SaitekProFlightRudderPedals_0
+  m_EditorClassIdentifier: 
   controllerName: Saitek Pro Flight Rudder Pedals
-  editorControllerName:
-  description:
+  editorControllerName: 
+  description: 
   controllerGuid: 01665f95-8b2d-42d0-8d54-3bc9b0d16b1d
   templateGuids:
   - f6fe76f8-be2a-4db2-b853-9e3652075913
@@ -24,13 +24,13 @@ MonoBehaviour:
   - _id: 0
     _name: Left Pedal
     _positiveName: Left Pedal
-    _negativeName:
+    _negativeName: 
     _elementType: 0
     _compoundElementType: 0
   - _id: 1
     _name: Right Pedal
     _positiveName: Right Pedal
-    _negativeName:
+    _negativeName: 
     _elementType: 0
     _compoundElementType: 0
   - _id: 2
@@ -41,37 +41,40 @@ MonoBehaviour:
     _compoundElementType: 0
   compoundElements: []
   directInput:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       hatCount: 0
       alternateElementCounts: []
       productName_useRegex: 0
       productName: []
       productGUID: []
-      productId:
+      productId: 
       deviceType: 0
     elements:
       axes: []
       buttons: []
     variants: []
   rawInput:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 3
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       hatCount: 0
       alternateElementCounts: []
       productName_useRegex: 0
       productName:
       - Saitek Pro Flight Rudder Pedals
       - Saitek Pro Flight Combat Rudder Pedals
-      - "Mad Catz Pro Flight Cessna Rudder Pedals\r\nMad Catz Pro Flight Cessna Rudder Pedals"
+      - 'Mad Catz Pro Flight Cessna Rudder Pedals
+
+        Mad Catz Pro Flight Cessna
+        Rudder Pedals'
       productGUID:
       - 076306a3
       - 076406a3
@@ -155,24 +158,24 @@ MonoBehaviour:
       buttons: []
     variants: []
   xInput:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
-      subType:
+      tag: 
+      subType: 
     elements:
       axes: []
       buttons: []
     variants: []
   osx:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 3
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       hatCount: 0
       alternateElementCounts: []
       productName_useRegex: 0
@@ -183,7 +186,7 @@ MonoBehaviour:
       manufacturer:
       - Saitek
       productId: 630700006407000065070000
-      vendorId: *3060000*3060000*3060000
+      vendorId: a3060000a3060000a3060000
     elements:
       axes:
       - elementIdentifier: 0
@@ -258,12 +261,12 @@ MonoBehaviour:
       buttons: []
     variants: []
   linux:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 3
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       hatCount: 0
       alternateElementCounts: []
       manufacturer_useRegex: 0
@@ -347,12 +350,12 @@ MonoBehaviour:
       buttons: []
     variants: []
   windowsUWP:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 3
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       hatCount: 0
       alternateElementCounts: []
       manufacturer_useRegex: 0
@@ -434,12 +437,12 @@ MonoBehaviour:
       buttons: []
     variants: []
   fallback_Windows:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName:
@@ -447,11 +450,11 @@ MonoBehaviour:
       - Saitek Pro Flight Combat Rudder Pedals
       - "Mad Catz Pro Flight Cessna Rudder Pedals\r"
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes:
       - elementIdentifier: 0
@@ -520,32 +523,32 @@ MonoBehaviour:
       buttons: []
     variants: []
   fallback_WindowsUWP:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_OSX:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName:
@@ -553,11 +556,11 @@ MonoBehaviour:
       - Saitek Saitek Pro Flight Combat Rudder Pedals
       - "Mad Catz Pro Flight Cessna Rudder Pedals\r"
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes:
       - elementIdentifier: 0
@@ -626,12 +629,12 @@ MonoBehaviour:
       buttons: []
     variants: []
   fallback_Linux:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName:
@@ -639,11 +642,11 @@ MonoBehaviour:
       - Saitek Saitek Pro Flight Combat Rudder Pedals
       - "Mad Catz Pro Flight Cessna Rudder Pedals\r"
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes:
       - elementIdentifier: 0
@@ -712,317 +715,317 @@ MonoBehaviour:
       buttons: []
     variants: []
   fallback_Linux_PreConfigured:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_Android:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_iOS:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_Blackberry:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_WindowsPhone8:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_XBox360:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_XBoxOne:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_PS3:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_PS4:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_PSM:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_PSVita:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_Wii:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_WiiU:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_AmazonFireTV:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   fallback_RazerForgeTV:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       matchUnityVersion: 0
-      matchUnityVersion_min:
-      matchUnityVersion_max:
+      matchUnityVersion_min: 
+      matchUnityVersion_max: 
       matchSysVersion: 0
-      matchSysVersion_min:
-      matchSysVersion_max:
+      matchSysVersion_min: 
+      matchSysVersion_max: 
     elements:
       axes: []
       buttons: []
     variants: []
   webGL:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
       productGUID: []
-      mapping:
+      mapping: 
       elementCount: []
       clientInfo: []
     elements:
@@ -1030,24 +1033,24 @@ MonoBehaviour:
       buttons: []
     variants: []
   ouya:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
     elements:
       axes: []
       buttons: []
     variants: []
   xboxOne:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
@@ -1056,12 +1059,12 @@ MonoBehaviour:
       buttons: []
     variants: []
   ps4:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
@@ -1070,12 +1073,12 @@ MonoBehaviour:
       buttons: []
     variants: []
   nintendoSwitch:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
@@ -1084,27 +1087,27 @@ MonoBehaviour:
       buttons: []
     variants: []
   stadia:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
     elements:
       axes: []
       buttons: []
-    controllerName:
+    controllerName: 
     variants: []
   internalDriver:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       alwaysMatch: 0
       productName_useRegex: 0
       productName: []
@@ -1115,12 +1118,12 @@ MonoBehaviour:
       buttons: []
     variants: []
   sdl2_Linux:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       hatCount: 0
       manufacturer_useRegex: 0
       productName_useRegex: 0
@@ -1134,12 +1137,12 @@ MonoBehaviour:
       buttons: []
     variants: []
   sdl2_Windows:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       hatCount: 0
       manufacturer_useRegex: 0
       productName_useRegex: 0
@@ -1153,12 +1156,12 @@ MonoBehaviour:
       buttons: []
     variants: []
   sdl2_OSX:
-    description:
+    description: 
     matchingCriteria:
       axisCount: 0
       buttonCount: 0
       disabled: 0
-      tag:
+      tag: 
       hatCount: 0
       manufacturer_useRegex: 0
       productName_useRegex: 0
