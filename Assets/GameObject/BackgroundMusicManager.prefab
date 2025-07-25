@@ -2,11 +2,11 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &1530305030827109
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4000764289768721}
   - component: {fileID: 114199848699104088}
@@ -42,20 +42,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7de5a8bb9d61b1ca265622e87878da55, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   _audioSource: {fileID: 82063912361364273}
   _fadeDuration: 0.75
 --- !u!82 &82063912361364273
 AudioSource:
-  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530305030827109}
   m_Enabled: 1
-  OutputAudioMixerGroup: {fileID: 24300012, guid: b2c4ad6672337634eb7d2f889e1dc451, type: 2}
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300012, guid: b2c4ad6672337634eb7d2f889e1dc451,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
